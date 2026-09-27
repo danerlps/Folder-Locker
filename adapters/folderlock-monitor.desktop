@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Folder-Locker Monitor
+Comment=Monitors deleted locked folders to cascade delete hidden vaults
+Exec=/usr/bin/folderlock --monitor
+Terminal=false
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+X-KDE-autostart-phase=2

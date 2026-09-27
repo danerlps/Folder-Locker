@@ -1,0 +1,15 @@
+Source: folder-locker
+Section: utils
+Priority: optional
+Maintainer: Daniel Ertle Lopes <daniertlelopes@gmail.com>
+Build-Depends: debhelper (>= 13)
+Standards-Version: 4.6.0
+Homepage: https://github.com/danerlps/Folder-Locker
+
+Package: folder-locker
+Architecture: all
+Depends: ${misc:Depends}, gocryptfs, zenity, wmctrl
+Recommends: python3-nautilus
+Description: Lock and protect folders with password via context menu
+ Folder-Locker is a lightweight Linux utility to lock and protect
+ directories using gocryptfs encryption and native desktop context menu actions.

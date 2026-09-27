@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Lock Folder
+Comment=Lock folder with password using gocryptfs
+Exec=/usr/bin/folderlock lock %F
+Icon-Name=changes-prevent
+Selection=s
+Extensions=dir;
+Quote=double
+Dependencies=folderlock;gocryptfs;zenity;

@@ -1,0 +1,7 @@
+folderlock-core.sh usr/bin/
+adapters/folderlock.nemo_action usr/share/nemo/actions/
+adapters/folderlock.desktop usr/share/kservices5/ServiceMenus/
+adapters/folderlock.desktop usr/share/kio/servicemenus/
+adapters/folderlock.py usr/share/nautilus-python/extensions/
+adapters/folderlock-monitor.desktop etc/xdg/autostart/
+README.md usr/share/doc/folder-locker/

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=KonqPopupMenu/Plugin
+MimeType=inode/directory;
+Actions=lockFolder;
+X-KDE-Priority=TopLevel
+
+[Desktop Action lockFolder]
+Name=Lock Folder
+Icon=changes-prevent
+Exec=folderlock lock %f
